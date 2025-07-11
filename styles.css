@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@500&display=swap');
 @import 'tailwindcss';
+
+@font-face {
+	font-family: 'Tomorrow';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('/public/Tomorrow-Medium.ttf') format('truetype');
+}
 
 @theme {
 	--font-heading: 'Tomorrow', sans-serif;
