@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./output.css" rel="stylesheet" />
+		<title>Portfolio - Domen Koder</title>
+		<link rel="icon" type="image/x-icon" href="/public/favicon.ico" />
+	</head>
+	<body
+		class="bg-zinc-800 flex flex-col min-h-screen text-green-400 font-heading"
+	>
+		<nav class="bg-zinc-800 text-green-400 px-6 py-4 shadow-md">
+			<div class="max-w-7xl mx-auto flex justify-between items-center">
+				<!-- Logo / Name -->
+				<div class="text-2xl font-bold">
+					<a href="/index.html" class="hover:text-white transition"
+						>Domen Koder</a
+					>
+				</div>
+
+				<!-- Nav buttons -->
+				<div class="space-x-6">
+					<a href="/portfolio.html" class="hover:text-white transition"
+						>Portfolio</a
+					>
+					<a href="/skills.html" class="hover:text-white transition">Skills</a>
+				</div>
+			</div>
+		</nav>
+
+		<div
+			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-6 max-w-450 mx-auto"
+		>
+			<!-- Project Card -->
+			<a
+				target="_blank"
+				href="https://github.com/ThatKoalaGuy/personal-website"
+				class="block bg-zinc-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300"
+			>
+				<div class="aspect-[4/3]">
+					<!-- maintain image aspect ratio -->
+					<img
+						src="/public/projects/personal-website.png"
+						alt="Project 1"
+						class="object-cover w-full h-full"
+					/>
+				</div>
+				<div class="p-4 text-green-400 font-semibold text-lg">
+					Personal portfolio website - you are visiting it right now!
+					<br /><br /><br />
+					Tech stack: HTML + TailwindCSS
+				</div>
+			</a>
+
+			<!-- Project Card -->
+			<a
+				target="_blank"
+				href="https://github.com/ThatKoalaGuy/ToDoCLI"
+				class="block bg-zinc-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300"
+			>
+				<div class="aspect-[4/3]">
+					<img
+						src="/public/projects/todocli.png"
+						alt="Project 2"
+						class="object-cover w-full h-full"
+					/>
+				</div>
+				<div class="p-4 text-green-400 font-semibold text-lg">
+					ToDoCLI - a simple CLI todo app.
+					<br />
+					<br />
+					<br />
+					Tech stack: C
+				</div>
+			</a>
+
+			<!-- Project Card -->
+			<a
+				target="_blank"
+				href="https://github.com/ThatKoalaGuy/Calculator"
+				class="block bg-zinc-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300"
+			>
+				<div class="aspect-[4/3]">
+					<img
+						src="/public/projects/calculator.png"
+						alt="Project 2"
+						class="object-cover w-full h-full"
+					/>
+				</div>
+				<div class="p-4 text-green-400 font-semibold text-lg">
+					Calculator - a calculator made for practicing web development skills.
+					<br />
+					<br />
+					Tech stack: HTML, CSS, JS
+				</div>
+			</a>
+
+			<a
+				target="_blank"
+				href="https://github.com/ThatKoalaGuy/RockPaperScissors"
+				class="block bg-zinc-700 rounded-lg overflow-hidden shadow-lg hover:scale-105 transition-transform duration-300"
+			>
+				<div class="aspect-[4/3]">
+					<img
+						src="/public/projects/rps.png"
+						alt="Project 2"
+						class="object-cover w-full h-full"
+					/>
+				</div>
+				<div class="p-4 text-green-400 font-semibold text-lg">
+					RockPaperScissors - a game made for learning web development.
+					<br />
+					<br />
+					Tech stack: HTML, CSS, JS
+				</div>
+			</a>
+		</div>
+
+		<footer class="text-white text-center p-6 space-y-4">
+			<div class="flex justify-center space-x-6">
+				<a href="mailto:domen.koder@gmail.com" aria-label="Email">
+					<img
+						src="/public/email.png"
+						alt="Email icon"
+						class="w-12 h-12 hover:opacity-75"
+					/>
+				</a>
+				<a
+					href="https://github.com/thatkoalaguy"
+					target="_blank"
+					aria-label="GitHub"
+				>
+					<img
+						src="/public/github.png"
+						alt="GitHub icon"
+						class="w-12 h-12 hover:opacity-75"
+					/>
+				</a>
+			</div>
+
+			<p class="text-sm text-zinc-400">
+				Made with ❤️ in sLOVEnia. &copy; 2025, Domen Koder.
+			</p>
+		</footer>
+	</body>
+</html>
