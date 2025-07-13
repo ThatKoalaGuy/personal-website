@@ -9,7 +9,7 @@ export default function Portfolio() {
 				<div className="aspect-[4/3]">
 					<img
 						src="/projects/personal-website.png"
-						alt="Project 1"
+						alt="Personal website project"
 						className="object-cover w-full h-full"
 					/>
 				</div>
@@ -18,7 +18,7 @@ export default function Portfolio() {
 					<br />
 					<br />
 					<br />
-					Tech stack: HTML + TailwindCSS
+					Tech stack: Vite + React + TailwindCSS
 				</div>
 			</a>
 
@@ -30,7 +30,7 @@ export default function Portfolio() {
 				<div className="aspect-[4/3]">
 					<img
 						src="/projects/todocli.png"
-						alt="Project 2"
+						alt="ToDoCLI project"
 						className="object-cover w-full h-full"
 					/>
 				</div>
@@ -51,7 +51,7 @@ export default function Portfolio() {
 				<div className="aspect-[4/3]">
 					<img
 						src="/projects/calculator.png"
-						alt="Project 2"
+						alt="Calculator project"
 						className="object-cover w-full h-full"
 					/>
 				</div>
@@ -71,7 +71,7 @@ export default function Portfolio() {
 				<div className="aspect-[4/3]">
 					<img
 						src="/projects/rps.png"
-						alt="Project 2"
+						alt="Rock Paper Scissors project"
 						className="object-cover w-full h-full"
 					/>
 				</div>

@@ -18,6 +18,7 @@ export default function About() {
 			<section>
 				<h2 className="text-2xl font-semibold mb-4">Frameworks & Libraries</h2>
 				<ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-lg">
+					<li>React</li>
 					<li>Tailwind CSS</li>
 				</ul>
 			</section>
