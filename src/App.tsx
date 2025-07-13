@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Portfolio from './pages/Portfolio';
 import Skills from './pages/Skills';
 import About from './pages/About';
+import NotFound from './pages/NotFound';
 
 function App() {
 	return (
@@ -15,6 +16,10 @@ function App() {
 				<Route path="/portfolio" element={<Portfolio />} />
 				<Route path="/skills" element={<Skills />} />
 				<Route path="/about" element={<About />} />
+
+				{/* 404 page - wildcard route */}
+				<Route path="/404" element={<NotFound />} />
+				<Route path="*" element={<NotFound />} />
 			</Routes>
 			<Footer />
 		</div>
