@@ -29,6 +29,7 @@ export default function Navbar() {
 
 				{/* Mobile menu button */}
 				<button
+					aria-label="menu"
 					className="md:hidden focus:outline-none"
 					onClick={() => setIsOpen(!isOpen)}
 				>
